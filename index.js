@@ -1,13 +1,13 @@
 var n=Math.random();
 n=Math.floor(n*6)+1;
 var randomDiceImage="dice"+n+".png";
-var randomImageSource="./images/"+randomDiceImage;
+var randomImageSource="./"+randomDiceImage;
 document.querySelectorAll("img")[0].setAttribute("src",randomImageSource);
 
 var n2=Math.random();
 n2=Math.floor(n2*6)+1;
 var randomDiceImage2="dice"+n2+".png";
-var randomImageSource2="./images/"+randomDiceImage2;
+var randomImageSource2="./"+randomDiceImage2;
 document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2);
 
 if(n>n2){
